@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(146, 93, 121);    
+}
+#main-h1{
+    text-shadow: 3px 3px #2760dd;
+    border: 1px solid red;
+    font-family:serif;
+    text-align: center;
+    box-shadow: 13px 13px 10px #888888;
+    font-size: 4.5rem;
+    border-radius: 20px;
+    margin: 23px 86px;
+    color: rgb(245, 41, 41);
+    background-color: rgb(109, 217, 224);
+}
+#main-h1:hover{
+    border: 1px solid red;
+    background-color: rgb(23, 233, 248);
+    color: red;
+}
+.main-box{
+    box-shadow: 30px 30px 20px #888888;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: yellowgreen;
+}
+.main-box h1{
+    text-shadow: 2px 2px #ff0000;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid rgb(247, 159, 128);
+    margin: 3px 370px;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(35, 35, 212);
+    background-color: rgb(230, 181, 163);
+    font-size: 3rem;
+}
+.main-box h1:hover{
+    color: blue;
+    background-color: rgb(224, 168, 148);
+}
+input{
+    display: block;
+    margin: 14px auto;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: lightblue;
+    border-radius: 25px;
+}
+#image-div{
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+}
+#image-div img{
+    height: 300px;
+    width: 300px;
+    margin: 14px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button{
+    display: block;
+    border-radius: 10px;
+    font-family:cursive;
+    margin: 7px auto;
+    font-size: 2rem;
+    background-color: rgb(69, 231, 102);
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+    border: 3px solid rgb(19, 56, 218);
+}
+button:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    background-color: rgb(4, 250, 53);
+}
